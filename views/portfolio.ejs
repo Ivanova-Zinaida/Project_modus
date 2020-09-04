@@ -1,0 +1,91 @@
+<%- include('_layouts/header')%>
+    <main class="main">
+    <section class="breadcrumb">
+        <div class="container">
+            <div class="flex-container flex-breadcrumb">
+                <span class="block-title">portfolio</span>
+                <p class="breadcrumb-container">
+                    <a href="index.html" class="breadcrumb-link">Home</a>
+                    <span>/</span>
+                    <a href="#" class="breadcrumb-link">Portfolio</a>
+                    <span>/</span>
+                    <a href="#" class="breadcrumb-link">WORDPRESS</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="portfolio-slider__wrapp">
+            <div class="nav-slider">
+                <span class="block-title portfolio-title">Donec faucibus ultricies congue</span>
+                <div class="arrow-container">
+                    <a href="#" class="client__arrow btn client__arrow_left"><span></span></a>
+                    <a href="#" class="client__arrow btn client__arrow_right"><span></span></a>
+                </div>
+            </div> 
+            <section class="slaider__wrapper slider__wrapper_portfolio">
+                <div class="slider">
+                    <div class="slider__item slider__item_main slider__item_main_active">
+                         <img src="img/portfolio/portfolio-1.png" alt="картинка в слайдере" class="slider__img">
+                    </div>
+                    <div class="slider__item slider__item_main ">
+                        <img src="img/portfolio/portfolio-2.jpeg" alt="картинка в слайдере" class="slider__img">
+                    </div>
+                    <div class="slider__item slider__item_main ">
+                        <img src="img/portfolio/portfolio-3.jpg" alt="картинка в слайдере" class="slider__img">
+                    </div>
+                    <a href="#" class="slider__arrow slider__arrow_left">
+                        <span class="arrow__inner arrow__inner_left"></span>
+                        <span class="arrow__inner_1 arrow__inner arrow__inner_left"></span>
+                    </a>
+                    <a href="#" class="slider__arrow slider__arrow_right">
+                        <span class=" arrow__inner_right arrow__inner"></span>
+                        <span class="arrow__inner_2 arrow__inner_right arrow__inner"></span>
+                    </a>
+                </div>
+                <ul class="slider-indicator portfolio-indicator">
+                    <li class="slider-indicator__item slider-indicator_active"></li>
+                    <li class="slider-indicator__item"></li>
+                    <li class="slider-indicator__item"></li>
+                </ul>
+            </section>
+        </div>
+        <div class="flex-container portfolio-project">
+            <div class="project">
+                <h2 class="block-title project-title">PROJECT DESCRIPTION</h2>
+                <p class="block-text">Maecenas eget turpis turpis. Nunc vel metus augue. Aenean euismod cursus ligula eget dapibus. Praesent vel erat in tortor placerat dignissim. </p>
+                <p class="block-text">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            </div>
+            <div class="table-ccontainer">
+               <h2 class="block-title project-title">PROJECT DETAILS</h2>
+                <table class="project-table">
+                    <tr>
+                        <td><span class="teble__icon"><i class="fa fa-calendar-check-o"></i></span>Release date</td>
+                        <td>26 May 2020</td>
+                    </tr>
+                    <tr>
+                        <td><span class="teble__icon"><i class="fa fa-cogs"></i></span>Technologies</td>
+                        <td><span class="table__item">HTML/CSS</span><span class="table__item">js</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="teble__icon"><i class="fa fa-user-o"></i></span>Client</td>
+                        <td>MightyDeals</td>
+                    </tr>
+                    <tr>
+                        <td><span class="teble__icon"><i class="fa fa-link"></i></span>Project url</td>
+                        <td><a href="#" class="table__link">VIEW PROJECT</a></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    </main>
+    <%- include('_layouts/footer')%>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/Slider.js"></script>
+    <script src="/js/slidersPortfolio.js"></script>
+
+</body>
+</html>
